@@ -144,3 +144,9 @@ function resetAll(){
   over.remove();
   setup();
 }
+
+setInterval(function(){ 
+  pointt+=1;
+  score.textContent=pointt;
+  
+}, 1000);
